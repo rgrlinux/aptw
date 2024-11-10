@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&family=Saira:wght@400;500;600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.flag-icon{
+    @apply transition-shadow duration-300 ease-in-out;
+}
+
+.flag-icon:hover {
+    box-shadow: 0.15rem .25rem .25rem .25rem rgba(255, 255, 255, 0.5);
+}

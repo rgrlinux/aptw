@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "tailwindcss": "^3.4.14"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "tw:watch": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/main.css --watch"
+  }
+}
